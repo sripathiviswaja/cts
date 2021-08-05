@@ -1,0 +1,35 @@
+A=int(input("enter the 1st number :"));
+B=int(input("enter the 2nd number :"));
+C=A;
+A=B;
+B=C;
+print(" enter the value A ",A);
+print(" enter the value B ",B);      
+ 
+OUT PUT:
+	enter the 1st number :10
+                   enter the 2nd number :20
+                       enter the value A  20
+                       enter the value B  10
+
+
+
+A=int(input("enter the 1st number :"));
+B=int(input("enter the 2nd number :"));
+print(" before the swap value A :",A);
+print(" before the swap value B :",B);
+C=A;
+A=B;
+B=C;
+print(" after the swap value A ",A);
+print(" after the swap value B ",B); 
+
+OUTPUT:
+	enter the 1st number :35
+enter the 2nd number :56
+ before the swap value A : 35
+ before the swap value B : 56
+ after the swap value A  56
+ after the swap value B  35
+     
+	
